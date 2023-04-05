@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Input the student's name and three subject marks
-read -p "Enter student name: " name
+# Input the student's three subject marks
 
 read -p "Enter marks for subject 1: " sub1
 
@@ -29,7 +28,6 @@ echo ""
 echo "------------------"
 echo "    MARKSHEET"
 echo "------------------"
-echo "Student Name: $name"
 echo "Subject 1: $sub1"
 echo "Subject 2: $sub2"
 echo "Subject 3: $sub3"
