@@ -26,7 +26,7 @@ fi
 # Display the marksheet with the student's name, marks, total, percentage, and class obtained
 echo ""
 echo "------------------"
-echo "    MARKSHEET"
+echo "    MARKSHEET     "
 echo "------------------"
 echo "Subject 1: $sub1"
 echo "Subject 2: $sub2"
