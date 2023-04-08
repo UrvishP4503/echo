@@ -9,11 +9,11 @@ read -p "Enter marks for subject 2: " sub2
 read -p "Enter marks for subject 3: " sub3
 
 # Calculate the total marks and percentage
-total=$((sub1+sub2+sub3))
-percentage=$((total/3))
+total=$((sub1 + sub2 + sub3))
+percentage=$((total / 3))
 
 # Determine the class obtained based on the percentage
-if [ $percentage -ge 60 ]; then
+if [ $percentage -ge 85 ]; then
   class="First"
 elif [ $percentage -ge 50 ]; then
   class="Second"
