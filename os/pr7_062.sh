@@ -24,7 +24,7 @@ do
             col=$(tput cols)
             read -p "Enter the position of x in range 0 to $row :" x
             read -p "Enter the position of y in range 0 to $col :" y
-            read -p "Enter your name" name
+            read -p "Enter your name " name
             tput cup $x $y
             echo "$name"
         ;;
