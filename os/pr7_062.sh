@@ -30,6 +30,8 @@ do
         ;;
         5)  tty
         ;;
+        6)  exit
+        ;;
         *)  echo "Invalid choice!!!"
         ;;
     esac
